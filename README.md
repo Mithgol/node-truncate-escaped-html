@@ -18,6 +18,8 @@ You may visit https://github.com/Mithgol/node-truncate-escaped-html#readme occas
 
 ## Testing the module
 
+[![(build testing status)](https://img.shields.io/travis/Mithgol/node-truncate-escaped-html/master.svg?style=plastic)](https://travis-ci.org/Mithgol/node-truncate-escaped-html)
+
 It is necessary to install [JSHint](http://jshint.com/) for testing.
 
 * You may install JSHint globally (`npm install jshint -g`) or locally (`npm install jshint` in the directory of the module).
