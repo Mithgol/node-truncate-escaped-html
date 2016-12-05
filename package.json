@@ -14,6 +14,7 @@
    "lodash.escape": "~4.0.1"
 },
 "scripts": {
-   "test": "jshint --verbose truncate-escaped-html.js"
+   "pretest": "jshint --verbose truncate-escaped-html.js",
+   "test": "mocha --reporter spec"
 }
 }

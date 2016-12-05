@@ -5,10 +5,10 @@ module.exports = function(limit, ending, source){
       source = ending;
       ending = '';
    }
+   if( limit <= 0 ) return '';
    if( limit < ending.length ) throw new Error(
       'truncate-escaped-html: limit < ending.length'
    );
-   if( limit <= 0 ) return '';
    var escSource = escapeHTML(source);
    if( escSource.length <= limit ) return escSource;
 
