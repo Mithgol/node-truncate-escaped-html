@@ -4,8 +4,6 @@ This module (`truncate-escaped-html`) converts special characters in a string
 
 This module is written in JavaScript and requires [Node.js](http://nodejs.org/) to run. This module is tested against Node.js v0.10.x, Node.js v0.12.x, Node.js v4.x, Node.js v5.x, Node.js v6.x and the latest stable version of Node.js.
 
-This module is currently in an early phase of its development and thus does not have the desired level of feature completeness.
-
 ## Installing the module
 
 [![(npm package version)](https://nodei.co/npm/truncate-escaped-html.png?downloads=true&downloadRank=true)](https://npmjs.org/package/truncate-escaped-html)

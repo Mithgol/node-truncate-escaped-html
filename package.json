@@ -10,6 +10,9 @@
    "type": "git",
    "url": "https://github.com/Mithgol/node-truncate-escaped-html.git"
 },
+"dependencies": {
+   "lodash.escape": "~4.0.1"
+},
 "scripts": {
    "test": "jshint --verbose truncate-escaped-html.js"
 }

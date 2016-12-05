@@ -7,6 +7,8 @@ node_js:
   - 5
   - 6
   - stable
+before_install:
+  - "npm install -g npm"
 before_script:
   - "npm install jshint"
 install:
