@@ -79,7 +79,7 @@ var OpenGraphDescription = truncateEscapedHTML(200, '…\u27a1',
 
 [![(build testing status)](https://img.shields.io/travis/Mithgol/node-truncate-escaped-html/master.svg?style=plastic)](https://travis-ci.org/Mithgol/node-truncate-escaped-html)
 
-It is necessary to install [Mocha](http://visionmedia.github.io/mocha/) and [JSHint](http://jshint.com/) for testing.
+It is necessary to install [Mocha](https://mochajs.org/) and [JSHint](http://jshint.com/) for testing.
 
 * You may install Mocha globally (`npm install mocha -g`) or locally (`npm install mocha` in the directory of the module).
 
