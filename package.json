@@ -1,7 +1,7 @@
 {
 "name": "truncate-escaped-html",
 "main": "truncate-escaped-html.js",
-"version": "0.1.0",
+"version": "1.0.0",
 "description": "Converts special characters in a string to the corresponding HTML entities, then truncates the resulting string carefully (HTML entities are not cut in the middle).",
 "keywords": ["HTML", "escape", "entities", "entity", "truncate", "truncated", "shorten", "shortened"],
 "author": { "name": "Mithgol the Webmaster" },

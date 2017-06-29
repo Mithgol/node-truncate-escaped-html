@@ -1,6 +1,6 @@
 var escapeHTML = require('lodash.escape');
 
-module.exports = function(limit, ending, source){
+module.exports = (limit, ending, source) => {
    if( typeof source === 'undefined' ){
       source = ending;
       ending = '';

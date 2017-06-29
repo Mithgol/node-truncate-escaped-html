@@ -2,7 +2,13 @@
 
 This module (`truncate-escaped-html`) converts special characters in a string to the corresponding HTML entities, then truncates the resulting string carefully (HTML entities are not cut in the middle).
 
-This module is written in JavaScript and requires [Node.js](http://nodejs.org/) to run. This module is tested against Node.js v0.10.x, Node.js v0.12.x, Node.js v4.x, Node.js v5.x, Node.js v6.x and the latest stable version of Node.js.
+This module is written in JavaScript and requires [Node.js](http://nodejs.org/) to run.
+
+* Starting from v1.0.0, this module requires Node.js version 4.0.0 or newer because it is rewritten in ECMAScript 2015 (ES6).
+
+* You may run older versions of this module (that precede v1.0.0) with older Node.js versions (0.10.x or 0.12.x). Those older versions of Node.js are themselves not maintained by their developers after 2016-12-31.
+
+This module is tested against Node.js v4.x, Node.js v5.x, Node.js v6.x, Node.js v7.x and the latest stable version of Node.js.
 
 ## Installing the module
 
